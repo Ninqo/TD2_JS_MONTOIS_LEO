@@ -1,0 +1,74 @@
+body{
+    margin: 20px;
+    line-height: 1.5;
+}
+
+h2{
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.google_logo {
+    display: block;
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="date"] {
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    width: 250px;
+}
+
+form label {
+    margin-right: 10px;
+}
+
+form button {
+    padding: 5px 15px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ddd;
+}
+
+.progress-espace progress[value] {
+    appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.progress-espace progress[value]::-webkit-progress-bar {
+    background-color: #e0e0e0e0;
+    border-radius: 10px;
+    height: 13px;
+    width: 75px;
+    border: 1px solid black;
+}
+
+.progress-espace progress[value]::-webkit-progress-value {
+    background-color: green;
+    border-radius: 10px;
+}

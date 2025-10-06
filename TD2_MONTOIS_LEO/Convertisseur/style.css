@@ -1,0 +1,35 @@
+body{
+    margin: 20px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 33%;
+
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+td img{
+    weight: 40px;
+    height: 40px;
+}
+
+.tete_tableau{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.bouton_convertion{
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    cursor: pointer;
+}

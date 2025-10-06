@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire avec java</title>
+    <link rel="stylesheet" href="styleformulaire.css">
+</head>
+<body>
+<section id="LienImage">
+    <h2>Lien et images</h2>
+    <p>
+      <a href=" " id="wiki">La page principale de Wikipedia</a>
+    </p>
+    <img src="images/Google_logo.png" class="google_logo">
+</section>
+<hr>
+
+<section>
+    <h2>Des éléments !</h2>
+    <form>
+        <input type="text" placeholder="" id="etiquette"><br><br>
+
+        <label><input type="radio" id="choix1" name="choix"> Choix N°1</label>
+        <label><input type="radio" id="choix2" name="choix"> Choix N°2</label>
+        <label><input type="radio" id="choix3" name="choix"> Choix N°3</label>
+        <br><br>
+
+        <input type="password" placeholder="Mot de passe"><br><br>
+
+        <label for="volume" id="barreVolume">Volume</label>
+        <input type="range" id="volume" min="0" max="100" value="50">
+        <br><br>
+
+        <label><input type="checkbox" id="caseCocher">Une case à cocher</label>
+        <br><br>
+
+        <label for="date">Date :</label>
+        <input type="date" id="date" name="date">
+        <br><br>
+
+        <button type="submit">Ok</button>
+    </form>
+</section>
+
+<hr>
+
+<section>
+    <h2>Barres de progression</h2>
+    <p>
+        <div class="progress-tele">
+        Téléchargement en cours :  <progress id="telechargement" max="100" value="40">40%</progress>
+        <br><br>
+</div>
+        <div class="progress-espace">
+        Espace disponibles :  <progress id="espace_dispo" max="100" value="60">60%</progress>
+    </p>
+</div>
+</section>
+
+<hr>
+<script src="formulaire_script.js"></script>
+
+</body>
+</html>
